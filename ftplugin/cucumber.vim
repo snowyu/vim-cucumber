@@ -4,10 +4,10 @@
 " Last Change:	2010 Aug 09
 
 " Only do this when not done yet for this buffer
-if (exists("b:did_ftplugin"))
+if (exists("b:did_cucumber_ftplugin"))
   finish
 endif
-let b:did_ftplugin = 1
+let b:did_cucumber_ftplugin = 1
 
 setlocal formatoptions-=t formatoptions+=croql
 setlocal comments=:# commentstring=#\ %s
